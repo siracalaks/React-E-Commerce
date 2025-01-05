@@ -11,7 +11,7 @@ const Product = () => {
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false);
 
-    const dispatch = useDispatch;
+    const dispatch = useDispatch();
     const addProduct = (product) => {
         dispatch(addCart(product));
     }

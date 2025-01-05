@@ -7,3 +7,106 @@
 /* body {
   background-image: url("../public/assets/bg-2.jpeg");
 } */
+
+/* Products page styles */
+.search-wrapper {
+  position: relative;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.buttons .btn {
+  min-width: 120px;
+}
+
+.input-group .form-control:focus {
+  box-shadow: none;
+  border-color: #333;
+}
+
+.input-group .btn-outline-secondary {
+  border-color: #ced4da;
+}
+
+.input-group .btn-outline-secondary:hover {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Hover effect for product cards */
+.hover-effect {
+  transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+}
+
+/* Genel stiller */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer stili */
+footer {
+  margin-top: auto;
+}
+
+/* Social links */
+.social-links a {
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #fff !important;
+}
+
+/* Form kontrolleri */
+.form-control:focus {
+  box-shadow: none;
+  border-color: #333;
+}
+
+/* Butonlar */
+.btn-dark {
+  transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+  transform: translateY(-2px);
+}
+
+/* Badge stili */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Card stili */
+.card {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
