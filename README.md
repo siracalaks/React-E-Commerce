@@ -16,7 +16,7 @@ A modern e-commerce web application built with React, featuring a responsive des
 
 ## 🚀 Live Demo
 
-Check out the live demo: [Live Demo](https://react-team-selection-and-grouping.netlify.app/)
+Check out the live demo: [Live Demo](https://sirac-ecommerce-react.netlify.app/)
 
 ## 🛠️ Technologies Used
 
